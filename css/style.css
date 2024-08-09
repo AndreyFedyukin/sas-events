@@ -311,7 +311,7 @@ body {
   width: 100%;
   max-width: 1200px;
   height: 1200px;
-  background-image: url(../img/blur-1.png);
+  background-image: url(../img/svg/blur-1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -322,9 +322,9 @@ body {
 
 .bg__blur-2 {
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   height: 800px;
-  background-image: url(../img/blur-2.png);
+  background-image: url(../img/svg/blur-2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -634,9 +634,10 @@ body {
 }
 
 .footer-bg__blur-1 {
-  width: 980px;
+  width: 100%;
+  max-width: 1080px;
   height: 600px;
-  background-image: url(../img/bgf-1.png);
+  background-image: url(../img/svg/bgf-1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -646,9 +647,10 @@ body {
 }
 
 .footer-bg__blur-2 {
-  width: 700px;
+  width: 100%;
+  max-width: 900px;
   height: 630px;
-  background-image: url(../img/bgf-2.png);
+  background-image: url(../img/svg/bgf-2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
