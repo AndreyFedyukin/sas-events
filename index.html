@@ -160,7 +160,7 @@
               </button>
             </div>
 
-            <!-- !video ***************************************************** -->
+            <!-- video ***************************************************** -->
             <div class="grid__video grid__item grid__item-gallery item-2 decor">
               <picture class="card__picture">
                 <source srcset="img/poster-1.avif" type="image/avif">
@@ -169,7 +169,7 @@
                   loading="lazy">
               </picture>
 
-              <button class="card__open-btn open-modal-btn-video" aria-label="Play">
+              <button class="card__open-btn open-modal-btn-video" data-open-video="open-btn-video" aria-label="Play">
                 <svg class="card__play" width="17" height="20" viewBox="0 0 17 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -178,9 +178,10 @@
                 </svg>
               </button>
 
-              <div class="modal my-modal-video">
+              <div class="modal my-modal-video" data-modal-video="modal-video">
                 <div class="modal__box js-modal-box">
-                  <button class="modal__close-btn close-modal-btn-video" aria-label="Close">
+                  <button class="modal__close-btn close-modal-btn-video" data-close-video="close-btn-video"
+                    aria-label="Close video">
                     <svg class="card__cross" width="20" height="20" viewBox="0 0 25 25" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
@@ -199,9 +200,9 @@
 
               <img class="ellipse" src="img/svg/ellipse-group.svg" alt="ellipse">
             </div>
-            <!-- !end video ***************************************************** -->
+            <!-- end video ***************************************************** -->
 
-            <!-- !pictures ***************************************************** -->
+            <!-- pictures ***************************************************** -->
             <div class="grid__item grid__item-gallery item-3 decor">
               <img class="corners" src="img/svg/corners.svg" alt="corners">
 
@@ -213,7 +214,7 @@
                     loading="lazy">
                 </picture>
 
-                <button class="card__open-btn open-modal-btn" aria-label="Scope">
+                <button class="card__open-btn open-modal-btn" data-open-img="open-btn-img" aria-label="Open picture">
                   <svg class="card__scope" width="25" height="25" viewBox="0 0 25 25" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -228,9 +229,10 @@
                   </svg>
                 </button>
 
-                <div class="modal my-modal-img">
+                <div class="modal my-modal-img" data-modal-img="my-modal-img">
                   <div class="modal__box">
-                    <button class="modal__close-btn close-my-modal-btn">
+                    <button class="modal__close-btn close-my-modal-btn" data-close-img="close-btn-img"
+                      aria-label="Close picture">
                       <svg class="card__cross" width="20" height="20" viewBox="0 0 25 25" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
@@ -243,14 +245,13 @@
                     <picture class="modal__card-img">
                       <source srcset="img/art-1.avif" type="image/avif">
                       <source srcset="img/art-1.webp" type="image/webp">
-                      <img class="modal__img" src="img/art-1.jpeg" alt="Card img" aria-label="Card image"
-                        loading="lazy">
+                      <img class="modal__img" src="img/art-1.jpg" alt="Card img" aria-label="Card image" loading="lazy">
                     </picture>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- !end pictures ***************************************************** -->
+            <!-- end pictures ***************************************************** -->
 
             <div class="grid__item item-4">
               <h3 class="grid__title" aria-label="Title">
@@ -288,7 +289,7 @@
               </button>
             </div>
 
-            <!-- !video ***************************************************** -->
+            <!-- video ***************************************************** -->
             <div class="grid__video grid__item grid__item-gallery item-6 decor">
               <picture class="card__picture">
                 <source srcset="img/poster-3.avif" type="image/avif">
@@ -297,7 +298,7 @@
                   loading="lazy">
               </picture>
 
-              <button class="card__open-btn open-modal-btn-video" aria-label="Play">
+              <button class="card__open-btn open-modal-btn-video" data-open-video="open-btn-video" aria-label="Play">
                 <svg class="card__play" width="17" height="20" viewBox="0 0 17 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -306,9 +307,10 @@
                 </svg>
               </button>
 
-              <div class="modal my-modal-video">
+              <div class="modal my-modal-video" data-modal-video="modal-video">
                 <div class="modal__box js-modal-box">
-                  <button class="modal__close-btn close-modal-btn-video" aria-label="Close">
+                  <button class="modal__close-btn close-modal-btn-video" data-close-video="close-btn-video"
+                    aria-label="Close video">
                     <svg class="card__cross" width="20" height="20" viewBox="0 0 25 25" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
@@ -327,7 +329,8 @@
 
               <img class="spiral" src="img/svg/spiral.svg" alt="spiral">
             </div>
-            <!-- !end video ***************************************************** -->
+            <!-- end video ***************************************************** -->
+
           </div>
         </div>
       </section>

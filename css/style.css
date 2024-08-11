@@ -471,7 +471,7 @@ body {
 
 /* !этот класс нужно активировать перед натяжкой */
 .grid__btn {
-  display: none;
+  /* display: none; */
   padding: 16.5px 40px;
   margin-top: 35px;
 }
@@ -611,9 +611,8 @@ body {
 }
 
 .modal__img {
-  /* width: 100%; */
   max-width: calc(100svw - 20px);
-  height: auto;
+  height: 100%;
   max-height: calc(100svh - 20px);
   border-radius: 16px;
   object-fit: contain;
