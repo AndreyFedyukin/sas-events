@@ -612,7 +612,7 @@ body {
 
 .modal__img {
   max-width: calc(100svw - 20px);
-  height: 100%;
+  height: auto;
   max-height: calc(100svh - 20px);
   border-radius: 16px;
   object-fit: contain;
