@@ -23,7 +23,7 @@
       <div class="container">
         <div class="header__wrapper">
 
-          <a href="#" class="header__logo" aria-label="Logo">
+          <a href="#" class="logo header__logo" aria-label="Logo">
             <img class="header__logo-img" src="img/svg/logo.svg" alt="Logo">
           </a>
 
@@ -40,7 +40,7 @@
             </svg>
           </a>
 
-          <button id="burger" class="header__burger" aria-label="Burger menu">
+          <button id="burger" class="burger header__burger" aria-label="Burger menu">
             <span></span>
             <span></span>
             <span></span>
@@ -85,8 +85,7 @@
       <div class="bg__grig bg__grig-1024"></div>
       <div class="bg__grig bg__grig-768"></div>
       <div class="bg__grig bg__grig-360"></div>
-      <div class="bg__blur-1"></div>
-      <div class="bg__blur-2"></div>
+      <div class="bg__blur"></div>
 
       <!-- section events ************************* -->
       <section>
@@ -169,7 +168,7 @@
                   loading="lazy">
               </picture>
 
-              <button class="card__open-btn open-modal-btn-video" data-open-video="open-btn-video" aria-label="Play">
+              <button class="card__open-btn js-open-video" data-open-video="open-btn-video" aria-label="Play">
                 <svg class="card__play" width="17" height="20" viewBox="0 0 17 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -178,9 +177,9 @@
                 </svg>
               </button>
 
-              <div class="modal my-modal-video" data-modal-video="modal-video">
+              <div class="modal js-modal-video" data-modal-video="modal-video">
                 <div class="modal__box js-modal-box">
-                  <button class="modal__close-btn close-modal-btn-video" data-close-video="close-btn-video"
+                  <button class="modal__close-btn js-close-btn" data-close-video="close-btn-video"
                     aria-label="Close video">
                     <svg class="card__cross" width="20" height="20" viewBox="0 0 25 25" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
@@ -214,7 +213,7 @@
                     loading="lazy">
                 </picture>
 
-                <button class="card__open-btn open-modal-btn" data-open-img="open-btn-img" aria-label="Open picture">
+                <button class="card__open-btn js-open-img" data-open-img="open-btn-img" aria-label="Open picture">
                   <svg class="card__scope" width="25" height="25" viewBox="0 0 25 25" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -229,9 +228,9 @@
                   </svg>
                 </button>
 
-                <div class="modal my-modal-img" data-modal-img="my-modal-img">
+                <div class="modal js-modal-img" data-modal-img="my-modal-img">
                   <div class="modal__box">
-                    <button class="modal__close-btn close-my-modal-btn" data-close-img="close-btn-img"
+                    <button class="modal__close-btn js-close-btn" data-close-img="close-btn-img"
                       aria-label="Close picture">
                       <svg class="card__cross" width="20" height="20" viewBox="0 0 25 25" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -298,7 +297,7 @@
                   loading="lazy">
               </picture>
 
-              <button class="card__open-btn open-modal-btn-video" data-open-video="open-btn-video" aria-label="Play">
+              <button class="card__open-btn js-open-video" data-open-video="open-btn-video" aria-label="Play">
                 <svg class="card__play" width="17" height="20" viewBox="0 0 17 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -307,9 +306,9 @@
                 </svg>
               </button>
 
-              <div class="modal my-modal-video" data-modal-video="modal-video">
+              <div class="modal js-modal-video" data-modal-video="modal-video">
                 <div class="modal__box js-modal-box">
-                  <button class="modal__close-btn close-modal-btn-video" data-close-video="close-btn-video"
+                  <button class="modal__close-btn js-close-btn" data-close-video="close-btn-video"
                     aria-label="Close video">
                     <svg class="card__cross" width="20" height="20" viewBox="0 0 25 25" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
@@ -338,8 +337,7 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-bg__blur-1"></div>
-      <div class="footer-bg__blur-2"></div>
+      <div class="footer-bg__blur"></div>
 
       <div class="container">
         <div class="footer__wrapper">

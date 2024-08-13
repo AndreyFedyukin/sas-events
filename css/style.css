@@ -307,30 +307,17 @@ body {
   background-image: url(../img/svg/bg-grid-360.svg);
 }
 
-.bg__blur-1 {
+.bg__blur {
   width: 100%;
   max-width: 1200px;
   height: 1200px;
-  background-image: url(../img/svg/blur-1.svg);
+  background-image: url(../img/svg/blur.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -2;
-}
-
-.bg__blur-2 {
-  width: 100%;
-  max-width: 900px;
-  height: 800px;
-  background-image: url(../img/svg/blur-2.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 500px;
-  left: 150px;
-  z-index: -2;
+  z-index: -1;
 }
 
 .events {
@@ -471,7 +458,7 @@ body {
 
 /* !этот класс нужно активировать перед натяжкой */
 .grid__btn {
-  /* display: none; */
+  display: none;
   padding: 16.5px 40px;
   margin-top: 35px;
 }
@@ -570,11 +557,11 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--color-bg);
   overflow-y: hidden;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.4s, visibility 0.4s;
+  transition: opacity 0.3s, visibility 0.3s;
   z-index: 5;
 }
 
@@ -620,10 +607,8 @@ body {
 
 .disable-scroll {
   height: 100svh;
+  position: fixed;
   overflow: hidden;
-  /* position: fixed;
-  right: 0;
-  left: 0; */
 }
 
 /* footer ************************* */
@@ -632,29 +617,17 @@ body {
   border-top: 1px solid var(--color-line);
 }
 
-.footer-bg__blur-1 {
+.footer-bg__blur {
   width: 100%;
-  max-width: 1080px;
-  height: 600px;
-  background-image: url(../img/svg/bgf-1.svg);
+  max-width: 100svw;
+  height: 650px;
+  background-image: url(../img/svg/blur-f.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
+  right: 0;
   bottom: 0;
-  left: 15%;
-  z-index: -1;
-}
-
-.footer-bg__blur-2 {
-  width: 100%;
-  max-width: 900px;
-  height: 630px;
-  background-image: url(../img/svg/bgf-2.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  right: 25%;
-  bottom: 0;
+  left: 0;
   z-index: -1;
 }
 
