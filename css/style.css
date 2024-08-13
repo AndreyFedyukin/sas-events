@@ -416,7 +416,6 @@ body {
   max-height: inherit;
   aspect-ratio: 4/3;
   object-fit: cover;
-  border-radius: 16px;
 }
 
 .grid__img-card {
