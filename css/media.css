@@ -184,16 +184,16 @@
     margin-bottom: 20px;
   }
 
-  .footer__copyright {
+  /* .footer__copyright {
     align-self: center;
     transform: translateY(2px);
     padding: 0;
     margin-right: 46px;
-  }
+  } */
 
-  .footer__social {
+  /* .footer__social {
     transform: translateY(4px);
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -426,15 +426,15 @@
     display: none;
   }
 
-  .footer__copyright {
+  /* .footer__copyright {
     transform: translateY(0px);
     padding-left: 0;
     margin-right: 0;
-  }
+  } */
 
-  .footer__social {
+  /* .footer__social {
     transform: translateY(2px);
-  }
+  } */
 
   .social__link svg {
     width: 18px;
