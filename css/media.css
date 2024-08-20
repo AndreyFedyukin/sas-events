@@ -388,12 +388,22 @@
     margin-bottom: 0;
   }
 
-  .scope {
-    width: 24px;
-    max-width: 24px;
-    height: 24px;
-    max-height: 24px;
-    padding: 6px;
+  .card__open-btn,
+  .modal__close-btn {
+    top: 8px;
+    right: 8px;
+    border-radius: 6px;
+  }
+
+  .card__play,
+  .card__cross {
+    width: 17px;
+    height: 17px;
+  }
+
+  .card__scope {
+    width: 20px;
+    height: 20px;
   }
 
   .ellipse,
@@ -448,6 +458,17 @@
 
   .events {
     margin-top: 100px;
+  }
+
+  .card__play,
+  .card__cross {
+    width: 15px;
+    height: 15px;
+  }
+
+  .card__scope {
+    width: 18px;
+    height: 18px;
   }
 }
 

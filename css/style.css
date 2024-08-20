@@ -487,7 +487,6 @@ body {
 .card__cross {
   box-sizing: content-box;
   color: var(--color-lime);
-  outline: none;
   transition: color 0.3s;
 
   &:focus {
