@@ -376,7 +376,12 @@
   }
 
   .grid__btn {
+    display: none;
+  }
+
+  .grid__btn-mob {
     width: 100%;
+    display: block;
     font-size: 16px;
     padding: 16px 0;
     margin-top: 18px;
@@ -514,10 +519,6 @@
 
   .grid__paragraph {
     font-size: 14px;
-  }
-
-  .grid__btn {
-    margin-top: 17px;
   }
 
   .footer__wrapper {

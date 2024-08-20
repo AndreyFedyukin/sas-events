@@ -463,16 +463,6 @@ body {
   }
 }
 
-/* !этот класс нужно Активировать перед натяжкой */
-.grid__btn {
-  display: none;
-}
-
-/* !этот класс нужно Удалить перед натяжкой */
-.btn-demo {
-  display: block;
-}
-
 .grid__btn-mob {
   display: none;
 }
