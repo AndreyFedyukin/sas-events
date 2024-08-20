@@ -168,7 +168,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 37px;
+    padding: 37px 0;
   }
 
   .footer__navbar {
@@ -184,16 +184,23 @@
     margin-bottom: 20px;
   }
 
-  /* .footer__copyright {
+  .footer__copyright {
     align-self: center;
-    transform: translateY(2px);
-    padding: 0;
+    margin: 0;
     margin-right: 46px;
-  } */
+  }
 
-  /* .footer__social {
-    transform: translateY(4px);
-  } */
+  .footer__social {
+    transform: translateY(2px);
+  }
+
+  .social__link {
+    transform: translateY(0px);
+  }
+
+  .social__link:not(:last-child) {
+    margin-right: 15px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -211,25 +218,26 @@
 
   .header__wrapper {
     flex-direction: row;
-    padding: 45px 0px;
+    padding-top: clamp(1.38rem, calc(0.11rem + 5.64vw), 2.81rem);
+    padding-bottom: clamp(1.38rem, calc(0.22rem + 5.15vw), 2.69rem);
   }
 
   .header__logo {
-    margin-right: 10px;
-    margin-bottom: 0;
+    margin: 0;
+    margin-right: 30px;
   }
 
   .header__hr {
     max-width: 316px;
     display: block;
+    margin: 0;
+    margin-right: 30px;
   }
 
   .header__wallet {
     display: block;
     z-index: 5;
-    transform: translateY(2px);
-    margin-right: 36px;
-    margin-left: 10px;
+    margin-right: 30px;
   }
 
   .header__burger {
@@ -426,15 +434,13 @@
     display: none;
   }
 
-  /* .footer__copyright {
-    transform: translateY(0px);
-    padding-left: 0;
-    margin-right: 0;
-  } */
+  .footer__copyright {
+    margin: 0;
+  }
 
-  /* .footer__social {
-    transform: translateY(2px);
-  } */
+  .social__link {
+    transform: translateX(-1.5px);
+  }
 
   .social__link svg {
     width: 18px;
@@ -442,13 +448,23 @@
   }
 
   .social__link:not(:last-child) {
-    margin-right: 12px;
+    margin-right: 13px;
   }
 }
 
 @media (max-width: 710px) {
   .menu {
     padding-left: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__hr {
+    display: none;
+  }
+
+  .events {
+    margin-top: 100px;
   }
 }
 
@@ -463,10 +479,6 @@
 
   .bg__grig-360 {
     display: block;
-  }
-
-  .header__wrapper {
-    padding-top: 48px;
   }
 
   .header__logo {
