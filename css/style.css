@@ -353,7 +353,7 @@ body {
   position: relative;
   border-radius: 16px;
   z-index: -1;
-  margin: -56px 0 53px 0;
+  margin: -56px 0 57px;
 }
 
 .events-picture-1920 {
@@ -393,23 +393,20 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 172px 48px;
-  gap: 161px 48px;
+  gap: 163px 48px;
   align-content: center;
   justify-content: center;
   justify-items: center;
   align-items: center;
-  margin-bottom: 129px;
+  margin-bottom: 125px;
 }
 
 .grid__item {
   width: 100%;
   max-width: 616px;
+  height: auto;
+  max-height: max-content;
   position: relative;
-}
-
-.grid__item-gallery {
-  max-height: 454px;
 }
 
 .card__picture {
@@ -418,8 +415,6 @@ body {
   border-radius: 16px;
 }
 
-.grid__video,
-.grid__img-box,
 .grid__img-card {
   width: 100%;
   max-width: inherit;
@@ -460,22 +455,26 @@ body {
   background-color: var(--color-lime);
   border-radius: 8px;
   transition: color 0.3s;
+  padding: 16.5px 40px;
+  margin-top: 35px;
 
   &:hover {
     box-shadow: 0 0 10px 0.5px var(--color-lime);
   }
 }
 
-/* !этот класс нужно активировать перед натяжкой */
+/* !этот класс нужно Активировать перед натяжкой */
 .grid__btn {
   display: none;
-  padding: 16.5px 40px;
-  margin-top: 35px;
 }
 
-/* !этот класс нужно удалить перед натяжкой */
+/* !этот класс нужно Удалить перед натяжкой */
 .btn-demo {
   display: block;
+}
+
+.grid__btn-mob {
+  display: none;
 }
 
 .card__open-btn,
@@ -551,7 +550,7 @@ body {
   width: 100%;
   max-width: 472px;
   position: absolute;
-  top: -126px;
+  top: -120px;
   right: -128px;
   bottom: 200px;
   z-index: -1;

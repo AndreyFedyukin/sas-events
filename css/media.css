@@ -34,10 +34,6 @@
     max-width: 510px;
   }
 
-  .grid__item-gallery {
-    max-height: 376px;
-  }
-
   .grid__paragraph {
     letter-spacing: 0px;
   }
@@ -50,8 +46,8 @@
 
   .corners {
     max-height: 426px;
+    top: -20px;
     left: -28px;
-    top: -26px;
   }
 
   .spiral {
@@ -91,7 +87,6 @@
   }
 
   .events__name {
-    font-size: clamp(32px, 7vw, 120px);
     font-size: 94.64px;
     margin-top: 66px;
   }
@@ -103,29 +98,24 @@
   .events-picture-1024 {
     display: block;
     margin-top: -32px;
-    margin-bottom: 49px;
+    margin-bottom: 52px;
   }
 
   .events__title {
-    font-size: clamp(24px, 3vw, 48px);
     font-size: 37px;
     padding-left: 43px;
-    margin-bottom: 109.5px;
+    margin-bottom: 108px;
     margin-left: 5px;
   }
 
   .grid {
     max-width: 796px;
-    gap: 94px 37px;
+    gap: 89px 37px;
     margin-bottom: 93px;
   }
 
   .grid__item {
     max-width: 380px;
-  }
-
-  .grid__item-gallery {
-    max-height: 280px;
   }
 
   .grid__title {
@@ -148,19 +138,19 @@
 
   .ellipse {
     width: 349px;
-    top: -58px;
+    top: -56px;
     right: -43px;
   }
 
   .corners {
-    height: 317px;
-    top: -19px;
+    height: 318px;
+    top: -17px;
     left: -21px;
   }
 
   .spiral {
     max-width: 291px;
-    top: -78px;
+    top: -75px;
     right: -79px;
   }
 
@@ -228,7 +218,7 @@
   }
 
   .header__hr {
-    max-width: 316px;
+    max-width: 309px;
     display: block;
     margin: 0;
     margin-right: 30px;
@@ -299,7 +289,7 @@
   }
 
   .events__name {
-    font-size: 42px;
+    font-size: clamp(2rem, calc(1.45rem + 2.45vw), 2.63rem);
     line-height: 140%;
     margin-top: 37px;
     margin-bottom: 18px;
@@ -326,7 +316,7 @@
   .events-picture-768 {
     display: block;
     margin: 0;
-    margin-bottom: 90px;
+    margin-bottom: 95px;
   }
 
   .grid {
@@ -340,7 +330,7 @@
       "ff"
       "hh"
       "ii";
-    margin-bottom: 84px;
+    margin-bottom: 91px;
   }
 
   .item-1 {
@@ -366,30 +356,23 @@
     max-width: 562px;
   }
 
-  .grid__item-gallery {
-    max-height: 439px;
-  }
-
-  .grid__video,
-  .grid__img-box,
   .grid__img-card {
     max-height: 399px;
+    border-radius: 16px;
+    object-fit: cover;
   }
 
   .grid__title {
-    font-size: 24px;
+    font-size: clamp(1.13rem, calc(0.79rem + 1.47vw), 1.5rem);
     line-height: 24px;
     margin-bottom: 15px;
   }
 
   .grid__paragraph {
-    font-size: 20px;
+    font-size: clamp(0.88rem, calc(0.54rem + 1.47vw), 1.25rem);
     line-height: 22px;
+    text-align: start;
     margin: 0;
-  }
-
-  .grid__img-card {
-    border-radius: 16px;
   }
 
   .grid__btn {
@@ -398,11 +381,6 @@
     padding: 16px 0;
     margin-top: 18px;
     margin-bottom: 0;
-  }
-
-  /* !этот класс нужно удалить перед натяжкой */
-  .btn-demo {
-    display: block;
   }
 
   .scope {
@@ -420,8 +398,8 @@
   }
 
   .decor:not(:last-child) {
-    padding-bottom: 35px;
     border-bottom: 1px solid var(--color-line);
+    padding-bottom: 38px;
     margin-bottom: 23px;
   }
 
@@ -508,7 +486,7 @@
 
   .events-picture-360 {
     display: block;
-    margin-bottom: 94px;
+    margin-bottom: 98px;
   }
 
   .events__name {
@@ -523,26 +501,15 @@
   }
 
   .grid {
-    margin-bottom: 34px;
+    margin-bottom: 40px;
   }
 
   .grid__item {
     max-width: 300px;
   }
 
-  .grid__item-gallery {
-    max-height: 253px;
-  }
-
-  .grid__video,
-  .grid__img-box,
   .grid__img-card {
     max-height: 213px;
-  }
-
-  .grid__title {
-    font-size: 18px;
-    line-height: 24px;
   }
 
   .grid__paragraph {
@@ -551,16 +518,6 @@
 
   .grid__btn {
     margin-top: 17px;
-  }
-
-  /* .scope {
-    top: 9px;
-    right: 9px;
-  } */
-
-  .decor:not(:last-child) {
-    padding-bottom: 34px;
-    margin-bottom: 24px;
   }
 
   .footer__wrapper {
