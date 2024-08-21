@@ -329,7 +329,11 @@
       "gg"
       "ff"
       "hh"
-      "ii";
+      "ii"
+      "kk"
+      "jj"
+      "ll"
+      "mm";
     margin-bottom: 91px;
   }
 
@@ -350,6 +354,22 @@
   }
   .item-6 {
     grid-area: ii;
+  }
+
+  .item-7 {
+    grid-area: jj;
+  }
+
+  .item-8 {
+    grid-area: kk;
+  }
+
+  .item-9 {
+    grid-area: ll;
+  }
+
+  .item-10 {
+    grid-area: mm;
   }
 
   .grid__item {
