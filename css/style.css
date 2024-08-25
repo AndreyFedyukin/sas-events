@@ -336,7 +336,7 @@ body {
 }
 
 .events__name {
-  grid-area: aa;
+  grid-area: aaa;
   font-family: "Unbounded", sans-serif;
   font-weight: 700;
   position: relative;
@@ -362,7 +362,7 @@ body {
 
 .events-picture-768,
 .events-picture-360 {
-  grid-area: bb;
+  grid-area: bbb;
 }
 
 .events-picture-1440,
@@ -378,7 +378,7 @@ body {
 
 .events__title {
   max-width: 1013px;
-  grid-area: cc;
+  grid-area: ccc;
   font-family: "Unbounded", sans-serif;
   font-weight: 500;
   font-size: 48px;
