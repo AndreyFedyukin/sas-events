@@ -272,6 +272,9 @@ body {
 
 .bg__grig {
   width: 100%;
+  max-width: 1600px;
+  height: 647px;
+  background-image: url(../img/svg/bg-grid.svg);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -279,12 +282,6 @@ body {
   opacity: 0.4;
   z-index: -2;
   margin: 0px auto;
-}
-
-.bg__grig-1920 {
-  max-width: 1600px;
-  height: 647px;
-  background-image: url(../img/svg/bg-grid-1920.svg);
 }
 
 .bg__blur {
