@@ -287,34 +287,6 @@ body {
   background-image: url(../img/svg/bg-grid-1920.svg);
 }
 
-.bg__grig-1440 {
-  max-width: 1294px;
-  height: 647px;
-  display: none;
-  background-image: url(../img/svg/bg-grid-1440.svg);
-}
-
-.bg__grig-1024 {
-  max-width: 924px;
-  height: 647px;
-  display: none;
-  background-image: url(../img/svg/bg-grid-1024.svg);
-}
-
-.bg__grig-768 {
-  max-width: 646px;
-  height: 431px;
-  display: none;
-  background-image: url(../img/svg/bg-grid-768.svg);
-}
-
-.bg__grig-360 {
-  max-width: 340px;
-  height: 492px;
-  display: none;
-  background-image: url(../img/svg/bg-grid-360.svg);
-}
-
 .bg__blur {
   width: 100%;
   max-width: 1200px;
